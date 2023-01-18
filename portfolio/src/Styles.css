@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    background: #E5E5E5;
+}
+.navbar h3{
+    width: 160px;
+}
+
+.navbar{
+    display: flex;
+    padding: 20px 8%;
+    align-items: center;
+}
+
+.navbar ul {
+    flex: 1;
+    text-align: right;
+}
+
+.navbar ul li{
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.Content{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contText{
+    padding: 20px 8%;
+    font-size: 24px;
+    width: 30%;
+}
+
+.contText h1{
+    text-align: justify;
+}
+
+.contText p{
+    font-size: 24px;
+    text-align: justify;
+    margin-top: 24px;
+}
+
+yellowBox{
+    width: 777px;
+    height: 877px;
+    top: -248px;
+    left: 0;
+    background: rgba(255, 198, 55, 1);
+    
+}
+
+.projectContent h1{
+    text-align: center;
+}
+
+
+.projectContent hr{
+    width: 100px;
+    height: 4px;
+    border-radius: 2px;
+    background-color: rgba(253, 196, 53, 1);
+    border: none;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.buttons{
+    display: flex;
+    margin-top: 4%;
+    gap: 10px;
+    margin-top: 24px;
+} 
+
+.buttons button{
+    font-size: 18px;
+    padding: 8px 15px;
+} 
+
+.buttons .bt1{
+    background-color: rgba(253, 196, 53, 1);
+    border: none;
+    border-radius: 8px;
+}
+
+.buttons .bt2{
+    border-radius: 8px;
+} 
+.form{
+max-width: 500px;
+width: 100%;
+margin: 20px auto;
+padding: 30px;
+
+
+}
+
+.inputs{   
+    display: block;
+    margin-top: 54px;
+}
+
+.inputs input{
+    
+    
+    border: 1px solid #c0c2c5;
+    border-radius: 8px;
+    padding: 10px 200px;
+    display: block;
+    background-color: #fff;    
+}
+
+.inputs .Message{
+    padding: 120px 200px;
+    border-radius: 8px;
+}
+
+.sendButton{
+    background-color: rgba(253, 196, 53, 1);
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    padding: 8px 24px 8px 24px ;
+    margin-top: 3%;
+    margin-left: 94%;
+}

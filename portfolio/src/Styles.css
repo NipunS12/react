@@ -1,13 +1,14 @@
-*{
+* {
     margin: 0;
     padding: 0;
     background: #E5E5E5;
 }
-.navbar h3{
+
+.navbar h3 {
     width: 160px;
 }
 
-.navbar{
+.navbar {
     display: flex;
     padding: 20px 8%;
     align-items: center;
@@ -18,17 +19,17 @@
     text-align: right;
 }
 
-.navbar ul li{
+.navbar ul li {
     display: inline-block;
     margin: 0 20px;
 }
 
-.navbar ul li a{
+.navbar ul li a {
     text-decoration: none;
     color: black;
 }
 
-.Content{
+.Content {
     position: relative;
     width: 100%;
     display: flex;
@@ -36,37 +37,37 @@
     align-items: center;
 }
 
-.contText{
+.contText {
     padding: 20px 8%;
     font-size: 24px;
     width: 30%;
 }
 
-.contText h1{
+.contText h1 {
     text-align: justify;
 }
 
-.contText p{
+.contText p {
     font-size: 24px;
     text-align: justify;
     margin-top: 24px;
 }
 
-yellowBox{
+yellowBox {
     width: 777px;
     height: 877px;
     top: -248px;
     left: 0;
     background: rgba(255, 198, 55, 1);
-    
+
 }
 
-.projectContent h1{
+.projectContent h1 {
     text-align: center;
 }
 
 
-.projectContent hr{
+.projectContent hr {
     width: 100px;
     height: 4px;
     border-radius: 2px;
@@ -76,62 +77,63 @@ yellowBox{
     margin-top: 10px;
 }
 
-.buttons{
+.buttons {
     display: flex;
     margin-top: 4%;
     gap: 10px;
     margin-top: 24px;
-} 
+}
 
-.buttons button{
+.buttons button {
     font-size: 18px;
     padding: 8px 15px;
-} 
+}
 
-.buttons .bt1{
+.buttons .bt1 {
     background-color: rgba(253, 196, 53, 1);
     border: none;
     border-radius: 8px;
 }
 
-.buttons .bt2{
+.buttons .bt2 {
     border-radius: 8px;
-} 
-.form{
-max-width: 500px;
-width: 100%;
-margin: 20px auto;
-padding: 30px;
+}
+
+.form {
+    max-width: 500px;
+    width: 100%;
+    margin: 20px auto;
+    padding: 30px;
 
 
 }
 
-.inputs{   
+.inputs {
     display: block;
     margin-top: 54px;
 }
 
-.inputs input{
-    
-    
+.inputs input {
+
+
     border: 1px solid #c0c2c5;
     border-radius: 8px;
     padding: 10px 200px;
     display: block;
-    background-color: #fff;    
+    background-color: #fff;
 }
 
-.inputs .Message{
+.inputs .Message {
     padding: 120px 200px;
     border-radius: 8px;
 }
 
-.sendButton{
+.sendButton {
     background-color: rgba(253, 196, 53, 1);
     border: none;
     border-radius: 8px;
     font-size: 18px;
-    padding: 8px 24px 8px 24px ;
+    padding: 8px 24px 8px 24px;
     margin-top: 3%;
     margin-left: 94%;
 }
